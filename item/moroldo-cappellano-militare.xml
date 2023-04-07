@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogo>
+
+	<fotografie>
+
+    	<item n="1" xml:id="f1">
+
+    		<cdwa:cdwalite xmlns:cdwa="http://www.getty.edu/CDWA/CDWALite" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.getty.edu/research/publications/electronic_publications/cdwa/cdwalite.pdf" xml:id="ilraccontodelvajont">
+
+    			<cdwa:descriptiveMetadata>
+
+    				<cdwa:objectWorkTypeWrap>
+    					<cdwa:objectWorkType termsource="AAT" termsourceID="aat300046300">Fotografia</cdwa:objectWorkType>
+    					<cdwa:objectWorkType termsource="AAT" termsourceID="aat300128347">Fotografia B/N</cdwa:objectWorkType>
+						<cdwa:objectWorkType termsource="AAT" termsourceID="aat300054229">Fotografia di reportage</cdwa:objectWorkType>
+						<cdwa:objectWorkType termsource="AAT" termsourceID="aat300134547">Fotografia documentaria</cdwa:objectWorkType>	
+					</cdwa:objectWorkTypeWrap> 
+
+					<cdwa:titleWrap>
+ 						<cdwa:titleSet>
+ 							<cdwa:title>Un cappellano militare sul greto del Piave</cdwa:title> 
+ 						</cdwa:titleSet>
+					</cdwa:titleWrap> 
+
+					<cdwa:displayCreator>Gianfranco Moroldo (Milano, 16 settembre 1927 – Milano, 19 maggio 2001)</cdwa:displayCreator> 
+
+					<cdwa:indexingCreatorWrap>
+						<cdwa:indexingCreatorSet>
+ 							<cdwa:nameCreatorSet> 
+ 								<cdwa:nameCreator type="personalName" termsource="VIAF" termsourceID="viaf6234156858486849780004">Moroldo, Gianfranco</cdwa:nameCreator>
+ 							</cdwa:nameCreatorSet>
+							<cdwa:nationalityCreator>Italiana</cdwa:nationalityCreator>
+ 							<cdwa:vitalDatesCreator birthdate="1927_09_16" deathdate="2001_05_19">16 settembre 1927 – 19 maggio 2001</cdwa:vitalDatesCreator>
+ 							<cdwa:genderCreator>M</cdwa:genderCreator>
+							<cdwa:roleCreator termsource="AAT" termsourceID="aat300025695">Fotoreporter</cdwa:roleCreator>
+						</cdwa:indexingCreatorSet>
+					</cdwa:indexingCreatorWrap>
+
+					<cdwa:displayMeasurements>Dimensioni sconosciute</cdwa:displayMeasurements>
+
+					<cdwa:displayMaterialsTech>Carta fotografica</cdwa:displayMaterialsTech>
+					<cdwa:indexingMaterialsTechWrap>
+            			<cdwa:indexingMaterialsTechSet>
+                			<cdwa:termMaterialsTech cdwa:termsource="AAT" cdwa:termsourceID="aat300014190">Carta fotografica</cdwa:termMaterialsTech>                
+            			</cdwa:indexingMaterialsTechSet>
+        			</cdwa:indexingMaterialsTechWrap>
+
+        			<cdwa:displayCreationDate>Ottobre 1963</cdwa:displayCreationDate>
+
+        			<cdwa:locationWrap>
+						<cdwa:locationSet>
+							<cdwa:locationName type="currentRepository">Archivio RCS periodici / Archivio storico Corriere della Sera</cdwa:locationName>
+						</cdwa:locationSet>
+					</cdwa:locationWrap> 
+
+					<cdwa:indexingSubjectWrap>
+						<cdwa:indexingSubjectSet>
+							<cdwa:subjectTerm>Disastro del Vajont (Longarone, 9 ottobre 1963)</cdwa:subjectTerm>
+						</cdwa:indexingSubjectSet>
+					</cdwa:indexingSubjectWrap>  
+
+					<cdwa:descriptiveNoteWrap>
+						<cdwa:descriptiveNoteSet>
+							<cdwa:descriptiveNote>Gianfranco Moroldo, fotoreporter del Corriere della Sera, viene inviato sul sito del disastro del Vajont subito dopo l'evento. La fotografia immortala un cappellano militare sul greto del Piave, sullo sfondo si intravede la diga.</cdwa:descriptiveNote>
+						</cdwa:descriptiveNoteSet>
+					</cdwa:descriptiveNoteWrap>
+
+					<cdwa:rightsWork>© RCS Mediagroup S.p.a.</cdwa:rightsWork>
+
+					<cdwa:recordWrap>
+						<cdwa:recordID>f1</cdwa:recordID>
+						<cdwa:recordType>item</cdwa:recordType>
+						<cdwa:recordSource>Il Racconto del Vajont (© 2023 Sara Becchi)</cdwa:recordSource>
+					</cdwa:recordWrap> 
+
+					<cdwa:resourceWrap>
+						<cdwa:resourceSet> 
+							<cdwa:linkResource>file:///C:/Users/utente/Documents/SARA%20BECCHI/universit%C3%A0/LEZIONI/digital%20humanities/PROJECT/IL%20RACCONTO%20DEL%20VAJONT/index.html</cdwa:linkResource>
+						</cdwa:resourceSet>
+					</cdwa:resourceWrap>
+
+				</cdwa:descriptiveMetadata>
+
+    		</cdwa:cdwalite>
+
+		</item>
+
+	</fotografie>
+
+</catalogo>
+
+		
+    		
+			
+			
