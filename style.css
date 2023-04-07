@@ -1,0 +1,654 @@
+a:link { 
+	text-decoration: none;			
+}
+
+a:visited { 
+	text-decoration: none;			
+}
+
+a:hover { 
+	text-decoration: none;			
+}
+
+a:active { 
+	text-decoration: none;			
+}
+
+aside {
+	float: right; 
+	position: relative; 
+	margin: 0% 10% 0% 10%;
+	padding: 10%;
+	padding-top: 0%;
+	color: oldlace;
+	max-width: 100%;
+}
+
+aside h4 {
+	font-family: verdana;
+}
+
+aside h5 {
+	font-family: verdana;
+}
+
+aside h6 {
+	font-size: small;
+}
+
+aside ul {	
+	list-style-type: none;
+	padding: 0px 0px 0px 10px;	
+	border-left-style: none;
+	border-right-style: none;
+}
+
+aside ul li {
+	padding: 0px 0px 20px 0px;	
+}
+
+aside ul li:last-child {
+	border-bottom: none
+}
+
+aside .dropdown-menu {
+	background-color: black;
+	color: oldlace;		
+	border-color: black;
+}
+
+body {	
+	background-color: black; 
+	color: darkgrey;
+}
+
+body .background-footer {
+	color: oldlace;	
+	background-color: darkgrey;
+	padding: 30px 30px 30px 30px;	
+	float: center;		
+}
+
+h1 {
+	font-family: georgia; 
+	text-align: center;	
+}
+
+h1:hover {
+	color: black;
+	transition-duration: 5s;
+}
+
+h3 {
+	font-family: georgia;	
+	margin-bottom: 30px;
+}
+
+h3:hover {
+	color: black;
+	transition-duration: 5s;
+}
+
+h4 {
+	font-family: georgia;
+	letter-spacing: 3px;
+	word-spacing: 6px;
+	text-shadow: 1px 1px 2.5px black;
+}
+
+h5 {
+	font-family: georgia;
+	letter-spacing: 1.5px;
+	word-spacing: 3px;
+}
+
+
+ol {
+ 	list-style-type: none;
+	margin: 0;
+	padding: 0;	
+}
+
+table {	
+	border-style: none;
+}
+
+td {	
+	padding: 15px;
+	border-style: none;
+}
+
+th {
+	background-color: #ffad33;
+	padding: 15px;
+	border-style: none;
+}
+
+tr {
+	border-bottom: 2px solid #ddd;
+}
+
+ul {
+ 	list-style-type: none;
+	margin-left: 0;
+	padding: 0;	
+}
+
+.aside-dx-item {	
+	margin: 0px 0px 0px 0px;
+	padding: 0% 0% 0% 0%;	
+}
+
+.bc-link {
+	color: darkorange;
+}
+
+.bc-link:hover {
+	color: oldlace;
+}
+
+.breadcrumb-item {
+	font-size: 13px;
+}
+
+.breadcrumb-item.active {
+	color: darkgrey;
+}
+
+.btn {
+	background-color: oldlace; 
+	color: black;
+	border-color: black;
+}
+
+.btn:hover {
+	background-color: black;
+	color: oldlace;
+	border-color: black;
+}
+
+.btn:focus {
+	box-shadow: none;
+}
+
+.btn-group-vertical {
+	margin-bottom: 5%;
+}
+
+.btn-group-vertical .btn:hover {
+	background-color: darkorange;
+}
+
+.btn-nav {
+	background-color: black;
+	color: oldlace;
+	border-color: oldlace;
+	border-radius: 0px;
+	border-bottom-style: none;
+}
+
+.btn-nav.active {
+	background-color: oldlace;
+	color: black;
+	border-bottom-style: none;
+}
+
+.btn-nav.active:hover {
+	border-color: oldlace;
+}
+
+.btn-outline-secondary {
+	color: darkorange;
+	background-color: black;	
+	border-color: oldlace;
+}
+
+.btn-outline-secondary:hover {
+	border-color: transparent;
+}
+
+.btn-search {
+	background-color: black;
+	color: oldlace;	
+	margin: 4px 4px 4px 4px;
+	padding: 10px;
+}
+
+.btn-search:hover {
+	background-color: black;
+	color: oldlace;	
+	border-color: transparent;	
+	opacity: 0.8;
+}
+
+.btn-search:focus {
+	box-shadow: none;
+}
+
+.btn-timeline {
+	background-color: black;
+	color: darkgrey;
+	border-color: darkgrey;
+	border-style: dotted;
+	border-radius: 0px;
+}
+
+.btn-timeline:hover {
+	transition-duration: 1s;
+}
+
+.card {		
+	background-color: #ffad33;
+	color: black;
+	border-color: transparent;
+	border-style: solid;	
+	border-width: 3px;
+	border-radius: 10px;
+	margin: auto 10% 10% 10%;	
+}
+
+.card-autor {
+	height: 400px;
+	width: 350px;
+	border-width: 0px;
+	border-radius: 10px;	
+	background-repeat: no-repeat;		
+	background-color: darkorange;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	margin-right: 5%; 
+	text-align: center;	
+}
+
+.card-autor-link {
+	color: dimgray;
+}
+
+.card-autor-link:hover {
+	color: darkslategray;
+}
+
+
+.card-autor-autor {
+	height: 200px;
+	width: 350px;
+	border-width: 0px;
+	border-radius: 10px 10px 0px 0px;	
+	background-size: cover;
+	background-repeat: no-repeat;	
+	background-color: oldlace;
+	margin-top: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-right: 0; 
+}
+
+.card-autor-autor:hover {
+	opacity: 0.5;
+	transition-duration: 1s;
+}
+
+.card-body {
+	background-color: black;
+	color: oldlace;	
+	border-width: 2px;
+	border-radius: 10px;
+	text-align: justify;
+}
+
+.card-item {
+	height: 100px;
+	width: 400px;	
+	border-style: none;	
+	border-radius: 0px;	
+	background-size: cover;
+	background-repeat: no-repeat;		
+	background-color: darkorange;
+}
+
+.card-item-item {
+	margin: 0px 0px 0px 0px;
+	padding: 2% 2% 2% 2%;
+	height: 100px;
+	width: 200px;
+	float: left;
+	background-color: rgb(240, 240, 240, 0.5);
+	border-style: none;
+	border-radius: 0px;		
+	font-family: georgia;
+	font-size: 95%;
+}
+
+.card-item-item:hover {
+	background-color: rgb(240, 240, 240, 0.8);
+	transition-duration: 1s;
+}
+
+.card-item-item a {
+	color: black;
+}
+
+.card-reshen {
+	background-image: url(img/card_resia350.jpg);
+	background-repeat: no-repeat;	
+	opacity: 1;
+	color: black;	
+	padding: 15px 15px 15px 15px;
+	margin-top: 47%;
+	border-radius: 2px;
+	border-style: none;
+}
+
+.card-reshen-reshen {	
+	opacity: 0.6;
+	color: black;
+	border-radius: 2px;
+	padding: 8px 8px 8px 8px;		
+}
+
+.card-reshen-reshen:hover {
+	background-color: oldlace;
+	color: black;
+	opacity: 1;
+	transition-duration: 1s;
+}
+
+.card-timeline {
+	background-color: black;
+	color: darkgrey;
+	margin-bottom: 20px;
+}
+
+.carousel-control-prev {
+	background-color: black;
+	opacity: 0.3;
+	border-color: transparent;
+}
+
+.carousel-control-prev:hover {
+	background-color: black;
+	opacity: 0.5;
+	border-color: transparent;
+} 
+
+.carousel-control-next {
+	background-color: black;
+	opacity: 0.3;
+	border-color: transparent;
+}
+
+.carousel-control-next:hover {
+	background-color: black;
+	opacity: 0.5;
+	border-color: transparent;
+} 
+
+.col-md-4 .card-autor {
+	margin-top: 0px;	
+}
+
+.container {
+	padding: 2% 2% 2% 2%;	
+	background-color: black;
+	color: darkgrey;
+	width: 90%;			
+}
+
+.container-fluid {
+	padding: 2% 2% 2% 2%;	
+	background-color: black;	
+}
+
+.container-item {
+	background-color: darkorange;
+	margin: 0px 0px 0px 0px;
+	padding: 5% 5% 5% 5%;
+	color: black;	
+}
+
+.container-item a:hover {
+	cursor: zoom-in;
+}
+
+.container-item .btn-outline-secondary:hover {
+	background-color: transparent;
+	box-shadow: none;
+	border-style: none;
+}
+
+.container-item img:hover {
+	opacity: 0.5;
+	transition-duration: 1s;
+}
+
+.container-item .modal a:hover {
+	cursor: pointer;
+}
+
+.container-item .page-link {
+	background-color: darkorange;
+	color: black;
+	border-color: transparent;
+}
+
+.container-item .page-link:hover {
+	cursor: pointer;
+	border-color: transparent;
+	background-color: darkorange;
+	color: black;	
+}
+
+.container-timeline {
+	border-top-style: dashed;
+	border-left-style: dashed;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-color: darkorange;
+	border-width: 5px;
+	padding: 15px 10px 10px 10px;
+	width: 74.5%;	
+	margin-bottom: 70px;
+}
+
+.container-timeline h2 {
+	font-size: 50px;
+	text-align: right;
+	color: oldlace;
+	text-shadow: 2px 2px 2px black;
+}
+
+.dropdown-item:hover {
+	background-color: darkorange;
+	color: oldlace;
+	opacity: 0.8;
+}
+
+.dropdown-menu {
+	background-color: oldlace;
+	width: 450px;	
+}
+
+.dropdown-menu .btn-outline-secondary {
+	border-style: none;	
+}
+
+.dropdown-menu .form-group {
+	background-color: black;
+	opacity: 1;
+	padding: 0% 0% 0% 0%;
+}
+
+.dropdown-menu textarea {
+	background-color: black;
+	margin-left: 0px;
+	margin-right: 0px;	
+	border-left: 2px;
+	border-right: 2px;	
+}
+
+.dropdown-menu textarea:focus {
+	background-color: oldlace;
+	border-left: 3px;
+	border-right: 3px;
+}
+
+.dropdown-menu-autori {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width: 50px;
+}
+
+.dropright .dropdown-menu {
+	background-color: black;
+	padding: 2% 0% 2% 0%;
+	margin: 0px 0px 0px 0px;
+	border: 2px 2px 2px 2px;
+	box-shadow: none;
+	text-align: right;
+	opacity: 0.8;
+	width: 360px;	
+}
+
+.dropright .dropdown-menu-sm {	
+	width: 210px;
+}
+
+.form-control {
+	background-color: #ffad33;
+	border-color: transparent;
+}
+
+.form-control:focus {	
+	border-color: transparent;		
+	box-shadow: none;
+}
+
+.heading {
+	padding: 30px 30px 30px 30px;
+}
+
+.jumbotron {	
+	background-color: #ffad33;
+	color: black;	
+}
+
+.jumbotron img, .jumbotron .btn {
+	margin: 10px 10px 10px 0px;
+}
+
+.jumbotron img:hover {
+	opacity: 0.5;
+	transition-duration: 1s;
+}
+
+.lead a:hover {
+	cursor: zoom-in;
+}
+
+.main-heading {
+	padding: auto 30px 30px 30px;
+}
+
+.media {
+	font-size: small;
+}
+
+.modal-content {
+	widht: 1000 px;
+}
+
+.modal-body {
+	padding: 0% 0% 0% 0%;	
+}
+
+.modal-footer .btn-outline-secondary {
+	border-style: none;
+}
+
+.modal-footer .btn-outline-secondary:hover {	
+	color: black;
+}
+
+.modal-footer, .modal-header {
+	background-color: lightgrey;
+}
+
+.nav {
+	margin-bottom: 10px;
+	margin-left: 28%;
+}
+
+.navbar {	
+	background-color: black;
+}
+
+.navbar-dark {	
+	background-color: black !important;
+	opacity: 0.9;
+}
+
+.nav-link {
+	color: oldlace;
+}
+
+.nav-link:hover {
+	background-color: darkorange;
+	color: oldlace;
+	opacity: 0.8;
+	border-width: 2px;
+	border-radius: 10px;
+}
+
+.page-link {
+	background-color: black;
+	color: darkorange;
+	border-color: transparent;
+}
+
+.page-link:hover {
+	background-color: oldlace;
+	color: darkorange;	
+	border-color: transparent;	
+	opacity: 0.8;
+}
+
+.page-link:focus {
+	box-shadow: none;
+}
+
+.pagination {
+	float: right;	
+	background-color: black;
+	color: darkorange;
+}
+
+.walloftext {
+	text-align: justify;
+}
+
+.walloftext .btn-bookmark {
+	color: oldlace;
+	background-color: darkgrey;
+	opacity: 0.7;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.walloftext mark {
+	color: darkslateblue;
+	background-color: #ffad33;
+	opacity: 1;
+}
+
+.walloftext mark:hover {
+	cursor: pointer;
+	color: midnightblue;
+	opacity: 0.8;
+}
+
+.walloftext a:hover {
+	cursor: pointer;
+}
+
