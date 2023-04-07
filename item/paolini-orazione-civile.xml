@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="it">Vajont 9 Ottobre '63. Orazione Civile (1997), trascrizione</title>
+                <author xml:id="paolini" sameAs="https://isni.org/isni/0000000078520509">Marco Paolini</author>  
+                <respStmt>
+                    <resp>Codifica TEI</resp>
+                    <resp>Trascrizione</resp>
+                        <persName xml:id="becchi">Sara Becchi</persName>                            
+                </respStmt>               
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="unibo" sameAs="https://isni.org/isni/0000000121912795">Università di Bologna</publisher>
+                <availability>Testo liberamente consultabile</availability>
+                <licence target="https://creativecommons.org/licenses/by/3.0/">Licenza: Creative Commons Attribution 3.0</licence>
+            </publicationStmt>
+            <editionStmt>
+                <edition>Anteprima del testo marcato in TEI (c.ca 3%)</edition>
+                <date>2023</date>
+            </editionStmt>
+            <sourceDesc>
+                <scriptStmt>
+                    <bibl>
+                        <author ref="#paolini">Marco Paolini</author>
+                        <author xml:id="vacis" sameAs="https://isni.org/isni/0000000110232794">Gabriele Vacis</author>
+                        <title>Il Racconto del Vajont</title>
+                        <title type="alt">Vajont 9 Ottobre '63. Orazione Civile</title>              
+                    </bibl>
+                </scriptStmt>
+                <recordingStmt>
+                    <recording type="video" dur="" xml:id="paolini_vajont_1997">
+                    <publisher xml:id="rai" sameAs="https://isni.org/isni/0000000109465291">Radiotelevisione Italiana</publisher>                    
+                    <date when="1997_10_09">10 ottobre 1997<placeName ref="#vajont_diga">Sito della diga del Vajont</placeName></date>
+                        <respStmt>
+                            <resp>Interprete</resp>
+                                <persName ref="#paolini">Marco Paolini</persName>
+                            <resp>Regia</resp>
+                                <persName ref="#vacis">Gabriele Vacis</persName>
+                                <persName>Gerardo Guccini</persName> 
+                                <persName>Alessandra Ghiglione</persName>  
+                            <resp>Regia televisiva</resp>
+                                <persName xml:id="moretti">Antonio A. Moretti</persName>                
+                            <resp>Assistente alla regia</resp>
+                                <persName>Barbara Silvello</persName>
+                            <resp>Direttore della fotografia</resp>
+                                <persName xml:id="imparato">Raffaele Imparato</persName>
+                            <resp>Coordinamento tecnico</resp>
+                                <persName>Luigi Pirola</persName>
+                            <resp>Tecnici video</resp>
+                                <persName>Dante Menegel</persName>
+                                <persName>Pierluigi Giustina</persName>
+                            <resp>Tecnico audio</resp>
+                                <persName>Luca Latini</persName>
+                            <resp>Mixer video</resp>
+                                <persName>Stefano Valentini</persName>
+                            <resp>Operatori di ripresa</resp>
+                                <persName>Renato Bernini</persName>
+                                <persName>Giuseppe Cordisco</persName>
+                                <persName>Fabio Fioravante</persName>
+                                <persName>Raffaele Iannibello</persName>
+                                <persName>Giuseppe Lombardo</persName>
+                                <persName>Susanna Simoni</persName>
+                            <resp>Capi sq. specializzati di ripresa</resp>
+                                <persName>Davide Arata</persName>
+                                <persName>Angelo Rizzo</persName>
+                            <resp>Specializzati di ripresa</resp>
+                                <persName>Roberto Corona</persName>
+                                <persName>Luciano Dalla Malva</persName>
+                                <persName>Emiliano Martino</persName>
+                                <persName>Angelo Fusaro</persName>
+                                <persName>Giuseppe Magistrelli</persName>
+                                <persName>Gian Paolo Motta</persName>
+                            <resp>Ausiliari di ripresa</resp>
+                                <persName>Salvatore Isac</persName>
+                            <resp>Produttori</resp>
+                                <orgName ref="#rai">Radiotelevisione Italiana</orgName>
+                                    <persName xml:id="ruspoli">Pietro Ruspoli</persName>            
+                                <orgName xml:id="mobydick_teatri">Moby Dick - Teatri della Riviera</orgName>
+                        </respStmt>                          
+                    </recording>
+                </recordingStmt>
+            </sourceDesc>
+        </fileDesc> 
+
+        <encodingDesc>
+            <projectDesc>
+                <p>Trascrizione e marcatura in linguaggio XML/TEI del monologo teatrale <title>Vajont 9 ottobre '63. Orazione civile</title> di <author ref="#paolini">Marco Paolini</author> mandato in onda il <date when="1997_10_09">10 ottobre 1997</date> sul canale 2 della <orgName ref="#rai">RAI</orgName>.</p>
+            </projectDesc> 
+            <editorialDecl>
+                <interpretation>
+                    <p>Il testo è marcato con costante attenzione ai fenomeni linguistici quali accelerazione o decelerazione della velocità di locuzione, comunicazione gestuale (solo qualora sostituisca completamente la comunicazione verbale), enfasi qualora presente in alcune parti del discorso.</p>
+                    <p>Vengono secondariamente marcati cambi di ritmo e scanditure delle parole qualora questi fenomeni siano particolarmente evidenti.</p>
+                    <p>Vengono inoltre marcati date, nomi di luogo e persona, titoli di saggi e articoli, eventi storici rilevanti che l'autore cita nel suo monologo, oltre a parole chiave, espressioni dialettali, colloquialismi e uso di onomatopee.</p>
+                </interpretation>
+            </editorialDecl>                 
+            <transcriptionDesc>                
+                <p>Si è cercato, nei limiti della comprensione del dettato, di trascrivere fenomeni quali storpiature, incertezze e/o errori nella locuzione, elisione di vocale o allungamento di sillaba a fine parola, sfumature dialettali.</p> 
+                <p>Per segnalare incertezze nel discorso o interruzioni improvvise viene usato il trattino -</p>  
+                <p>L'allungamento della vocale viene segnalato graficamente: es. ā</p>               
+            </transcriptionDesc>                              
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+            <textDesc n="monologue">
+                <channel mode="s"/>
+                <domain type="political theater"/>
+                <factuality type="fact"/>
+                <interaction type="none" active="singular" passive="group"/>
+                <preparedness type="revised"/>
+                <purpose type="inform" degree="high"/>                
+                <purpose type="entertain" degree="medium"/>
+            </textDesc>
+            <textClass>
+                <classCode scheme="AAT" resp="#becchi"/>
+                <list>                        
+                    <item idno="300266470" ref="http://vocab.getty.edu/page/aat/300266470" xml:id="monologue">Monologo</item> 
+                    <item idno="300417518" ref="http://vocab.getty.edu/page/aat/300417518" xml:id="anniversary">Anniversario</item>
+                    <item idno="300214143" ref="http://vocab.getty.edu/page/aat/300214143" xml:id="commemoration">Commemorazione</item>                     
+                    <item idno="300417518" ref="http://vocab.getty.edu/page/aat/300417518" xml:id="cultural_event">Evento culturale</item>
+                </list>                
+                <keywords resp="#becchi">
+                    <list>
+                        <term xml:id="1">diretta sulla memoria</term> 
+                        <term xml:id="2">nodo al fazzoletto</term> 
+                    </list>
+                </keywords>
+            </textClass>                      
+            <particDesc>
+                <listPerson type="speaker">
+                    <person ref="#paolini">
+                        <persName>Marco Paolini</persName>
+                            <birth when="1956_03_05">05 marzo 1956<placeName ref="#belluno">Belluno</placeName></birth>  
+                   </person>                            
+                </listPerson>  
+                <listPerson type="listener">
+                    <person xml:id="#unknown"> 
+                        <p>Uditori non identificati della platea che occasionalmente interagiscono con lo speaker.</p>                       
+                    </person>                            
+                </listPerson>                                                   
+            </particDesc> 
+            <settingDesc>
+                <listPlace type="set">
+                    <place ref="#vajont_diga">
+                        <placeName>Sito della diga del Vajont</placeName>
+                            <location>
+                                <geo>46.267319 - 12.329261</geo>
+                            </location>
+                    </place> 
+                </listPlace>                
+            </settingDesc>            
+        </profileDesc>    
+    </teiHeader>
+    <text>
+        <front>
+            <writing type="opening titles">
+                <p><date when="1997_10_09">34° anniversario della <event ref="#vajont_disastro">sciagura del Vajont</event></date><orgName ref="#rai">RAIDUE</orgName> e <orgName ref="mobydick_teatri">Moby Dick Teatri della Riviera</orgName> presentano</p>
+                <p><author ref="#paolini">MARCO PAOLINI</author> in</p>
+                <p><title ref="#paolini_vajont_1997">VAJONT 9 ottobre 1963</title></p>
+                <p>di <author ref="#paolini">Marco Paolini</author> e <author ref="#vacis">Gabriele Vacis</author></p>
+                <p>adattamento televisivo di <persName>Felice Cappa</persName> e <persName ref="#vacis">Gabriele Vacis</persName></p>
+                <p>direttore della fotografia <persName ref="#imparato">Raffaello Imparato</persName></p>
+                <p>produttore <orgName ref="#rai">RAI</orgName> <persName ref="#ruspoli">Pietro Ruspoli</persName></p>
+                <p>direttore di produzione <persName>Enrico Motta</persName></p>
+                <p>regia televisiva di <persName ref="moretti">Antonio A. Moretti</persName></p>
+            </writing>
+        </front>
+        <body>
+            <div1 type="act" n="1">                
+                <div2 type="chapter" n="1">
+                    <u who="#paolini">
+                        <shift feature="tempo" new="normal"/>Eccoci qua<pause/>
+                        <emph>Benvenuti</emph><pause/>
+                        Al teatro <shift feature="tempo" new="acc"/>della <placeName ref="#vajont_diga">diga del Vajont</placeName><pause/>
+                        <shift feature="tempo" new="normal"/>Non so<pause/>
+                        Perché <shift feature="tempo" new="acc"/>vi siete sintonizzati stasera per ascoltare questa storia<pause/>
+                        <shift feature="tempo" new="normal"/>Su alcuni giornali<pause/>
+                        Questo<pause/>
+                        Di stasera è indicato come un documentario<pause/>
+                        <shift feature="tempo" new="acc"/>In altri giornali come un film drammatico<pause/>
+                        <shift feature="tempo" new="normal"/>E invece siete in un <emph>teatro</emph><pause/> 
+                        <shift feature="tempo" new="acc"/>Questa gente è qui per ascoltare <shift feature="tempo" new="rall"/><emph>teatro</emph><pause/>
+                        <shift feature="tempo" new="rall"/>Per una sera<pause/>
+                        Rubiamo<pause/>
+                        La scena<pause/>
+                        All'attualità<pause/>
+                        E facciamo<pause/>
+                        <shift feature="tempo" new="normal"/>Una <term type="keywords" id="#1">diretta sulla memoria</term><pause/>
+                        <emph>Ecco</emph> perché è così difficile scriverlo definire <shift feature="tempo" new="acc"/>che cosa facciamo stasera<pause/>
+                        <shift feature="tempo" new="normal"/>Forse non esiste una diretta sulla memoria<pause/>
+                        Che cos'è?<pause/>
+                        Bè insomma è una specie <shift feature="tempo" new="acc"/>di <term type="keywords" id="#2">nodo al fazzoletto</term>
+                        <shift feature="tempo" new="rall"/>Che<pause/>
+                        Noi ci siamo già fatti<pause/>
+                        <shift feature="tempo" new="normal"/>Proviamo a raccontarlo insieme<pause/>
+                        Proviamo a farlo capire<pause/>
+                        Chiedo un po' di aiuto ogni tanto<pause/>
+                        <shift feature="tempo" new="acc"/>Quanto pesa un metro cubo d'acqua?<pause/>
+                    </u>
+                    <u who="#unknown">
+                        <shift feature="tempo" new="normal"/>Mille chili<pause/>
+                    </u>
+                    <u who="#paolini">
+                        <shift feature="tempo" new="rall"/>Perfetto<pause/>
+                        <shift feature="tempo" new="acc"/>Basta mettersi d'accordo sulla misura e ci siamo<pause/>
+                        Un metro cubo d'acqua è <shift feature="tempo" new="rall"/><emph>grande</emph> così<kinesic><desc>circoscrive un cubo con il movimento delle braccia</desc></kinesic><pause/>
+                        <vocal type="semi-lexical"><desc>Hm?</desc></vocal><pause/>
+                        <shift feature="tempo" new="acc"/>E le <shift feature="tempo" new="rall"/><emph>frane</emph> <shift feature="tempo" new="acc"/>le misurano a metri cubi<pause/>
+                        <shift feature="tempo" new="normal"/>Perché è l'unica misura che resta fissa<pause/>
+                        Perché il peso cambia <shift feature="tempo" new="acc"/>a seconda che dentro c'è fango terra<pause/>
+                        <vocal type="semi-lexical"><desc>Eh?</desc></vocal> <shift feature="tempo" new="rall"/>Allora<pause/>
+                        <date when="1963_10_09">Il nove ottobre del Sessantatré</date><pause/>
+                        Dal <geoName ref="#monte_toc">monte <emph>Toc</emph></geoName><pause/>
+                        Qui sul fianco sinistro della <shift feature="tempo" new="acc"/><geoName ref="#vajont_valle">valle del Vajont</geoName><pause/>
+                        <shift feature="tempo" new="rall"/>Si stacca una frana di 
+                        <shift feature="tension" new="st"/>Duecento<pause/> 
+                        Sessanta<pause/>
+                        <emph>Milioni</emph><pause/> 
+                        <shift feature="tempo" new="acc"/><shift feature="tension" new="normal"/>di metri cubi di roccia<pause/> 
+                        <shift feature="tempo" new="rall"/>Piomba nel lago<pause/>
+                        <emph>Dietro</emph> <shift feature="tempo" new="acc"/>la <placeName ref="#vajont_diga">diga del Vajont</placeName> e solleva <emph>un'onda</emph><pause/>
+                        Di solo <emph>cinquanta</emph> <shift feature="tempo" new="acc"/>milioni di metri cubi d'acqua<pause/>
+                        <shift feature="tempo" new="rall"/>Che solo per <emph>metà</emph><pause/>
+                        <shift feature="tempo" new="acc"/>Passa dall'altra parte della diga ma è <emph>più</emph> che sufficiente a spazzare via dalla faccia della terra cinque paesi<pause/>
+                        <shift feature="tempo" new="rall"/><placeName ref="#longarone">Longarone</placeName><pause/> 
+                        <placeName ref="#pirago">Pirago</placeName><pause/>
+                        <placeName ref="#rivalta">Rivalta</placeName><pause/>
+                        <placeName ref="#codissago">Codissago</placeName><pause/>
+                        <placeName ref="#faè">Faè</placeName><pause/> 
+                        <emph>Duemila</emph> i morti<pause/>
+                        <shift feature="tempo" new="acc"/>La storia della <placeName ref="#vajont_diga">diga del Vajont</placeName><pause/>
+                        <shift feature="tempo" new="rall"/>Iniziata <emph>sette</emph> anni prima conclude in <emph>quattro</emph> minuti di apocalisse<pause/>
+                        <shift feature="tempo" new="normal"/>Con l'olocausto di duemila vittime<pause/>
+                        Io il <date when="1963_10_10">dieci ottobre</date> andavo in seconda elementare<pause/>
+                        Mi sveglio alla mattina sette e mezza mia mamma piange<pause/>
+                        Non avrà mica già <distinct type="regionalism" space="veneto">litiga'</distinct> con mio papà alle sette e mezza di mattina?<pause/>
+                        Non era mica a casa mio papà<pause/>
+                        Ricordo il giornale radio<pause/>
+                        <shift feature="tension" new="st"/><said><placeName ref="#longarone">Longarone</placeName> non c'è più</said><pause/>
+                        <shift feature="tempo" new="rall"/><placeName ref="#longarone">Longarone?</placeName><pause/>
+                        Ma<pause/>
+                        Non avevamo mica parenti noi a <placeName ref="#longarone">Long-</placeName><pause/> 
+                        <shift feature="tempo" new="normal"/>Aspetta<pause/>
+                        <shift feature="tempo" new="rall"/>Ma <emph>certo</emph><pause/>
+                        <shift feature="tempo" new="acc"/>Me la ricordavo<pause/>
+                        <shift feature="tempo" new="normal"/>Sì!<pause/>
+                        <shift feature="loud" new="normal"/>Perché per me all'epoca <placeName ref="#longarone">Longarone</placeName><pause/>
+                        <shift feature="tempo" new="rall"/>Era una stazione sulla ferrovia delle vacanze <shift feature="loud" new="normal"/><emph>certo!</emph><pause/> 
+                        <shift feature="tempo" new="acc"/>Perché noi andavamo in vacanza <shift feature="tempo" new="rall"/><emph>sempre</emph> <shift feature="tempo" new="acc"/>nello stesso posto <shift feature="tempo" new="normal"/>io le stazioni le avevo imparate<pause/>
+                        Andare in su venire in giù<pause/>
+                        Sempre quelle<pause/>
+                        A scendere<pause/>
+                        <shift feature="tempo" new="acc"/><distinct type="colloquialism">'ste</distinct> stazioni si chiamavano<pause/>
+                        <shift feature="tempo" new="rall"/><placeName ref="#calalzo">Calalzo di Cadore</placeName><pause/>
+                        <shift feature="tempo" new="normal"/><shift feature="rhythm" new="arrh"/><vocal type="semi-lexical" iterated="true"><desc>Tu-tum</desc></vocal>      
+                        <shift feature="rhythm" new="normal"/>poi c'era <placeName ref="#sottocastello">Sottocastello</placeName> che c'è un'altra diga <shift feature="tempo" new="acc"/>ma il treno non ferma <distinct type="regionalism" space="veneto">nianche</distinct> 
+                        <shift feature="rhythm" new="arrh"/><vocal type="semi-lexical" iterated="true"><desc>tu-tum</desc></vocal> 
+                        <shift feature="tempo" new="rall"/><shift feature="rhythm" new="normal"/>poi c'era <placeName ref="#perarolo">Perarolo</placeName> 
+                        <shift feature="tempo" new="acc"/><shift feature="rhythm" new="arrh"/><vocal type="semi-lexical" iterated="true"><desc>tu-tum</desc></vocal> 
+                        <shift feature="tempo" new="rall"/><shift feature="rhythm" new="normal"/><placeName ref="#ospitale">Ospitale</placeName> 
+                        <shift feature="tempo" new="acc"/><shift feature="rhythm" new="arrh"/><vocal type="semi-lexical" iterated="true"><desc>tu-tum</desc></vocal> 
+                        <shift feature="tempo" new="rall"/><shift feature="rhythm" new="normal"/><placeName ref="#castellavazzo">Castellavazzo</placeName>  
+                        <shift feature="tempo" new="acc"/><shift feature="rhythm" new="arrh"/><vocal type="semi-lexical" iterated="true"><desc>tu-tum</desc></vocal> 
+                        <shift feature="tempo" new="rall"/><shift feature="rhythm" new="normal"/><placeName ref="#longarone">Longaronē</placeName><pause/>
+                    </u>
+                </div2>
+                <div2 type="chapter" n="2">
+                    <u who="#paolini">                        
+                        <shift feature="tempo" new="rall"/><cit ref="#bocca_articolo">Ecco la valle della sciagura<pause/>
+                        Fango<pause/>
+                        Silenzio<pause/>
+                        solitudine<pause/>
+                        <shift feature="tempo" new="normal"/>E capire subito che <shift feature="tempo" new="acc"/>tutto ciò è definitivo<pause/>
+                        <shift feature="tempo" new="normal"/>Più niente da fare o da dire<pause/> 
+                        <shift feature="tempo" new="rall"/><emph>Cinque</emph> paesi<pause/> 
+                        <emph>Migliaia</emph> di persone ieri c'erano<pause/>
+                        Oggi sono <emph>terra</emph><pause/> 
+                        <shift feature="tempo" new="normal"/>E <emph>nessuno</emph> ha colpa<pause/> 
+                        <shift feature="tempo" new="rall"/><emph>Nessuno</emph> poteva prevedere<pause/>
+                        In tempi <emph>atomici</emph> <shift feature="tempo" new="acc"/>si potrebbe dire che questa è una sciagura <emph>pulita</emph><pause/>
+                        <shift feature="tempo" new="normal"/>E gli uomini non ci hanno messo <emph>le mani</emph><pause/>
+                        <shift feature="tension" new="st"/>Tutto fatto <shift feature="tension" new="normal"/><shift feature="tempo" new="acc"/>dalla <emph>natura</emph> che non è <emph>buona</emph> non è <emph>cattiva</emph> <shift feature="tempo" new="rall"/>ma <emph>indifferente</emph><pause/>
+                        E ci vogliono queste <emph>sciagure</emph> per capirlo non uno di noi<pause/>Moscerini<pause/> 
+                        <emph>Vivo</emph><pause/>
+                        Se <emph>davvero</emph><pause/>
+                        La natura si decidesse a muoverci guerra<pause/></cit>
+                        Belle parole<pause/>
+                        Potenti<pause/>
+                        <shift feature="tempo" new="normal"/>Sono di uno dei giornalisti più <emph>importanti</emph> della nostra storia recente <persName ref="#bocca">Giorgio Bocca</persName><pause/>
+                        Sul <bibl ref="#il_giorno">Giorno</bibl> <shift feature="tension" new="st"/><date when="1963_10_11">venerdì undici ottobre del Sessantatré</date><pause/>
+                        <shift feature="tension" new="normal"/>Ma <emph>non</emph> soltanto lui-no-tutti gli inviati speciali arrivano<pause/>
+                        <distinct type="regionalism" space="veneto"><emph>spaventa'</emph></distinct>
+                        <shift feature="tempo" new="acc"/>come <emph>formiche</emph> sotto la <emph>diga</emph> perché gli tiran <emph>sassi</emph> <said><distinct type="regionalism" space="veneto">via de qua!</distinct></said><pause/>
+                        E in mezzo a questi signori ce n'è uno di <emph><placeName ref="#belluno">Belluno</placeName></emph><pause/>
+                        <shift feature="tempo" new="rall"/>E la diga è qua<pause/>
+                        Sul confine tra <placeName ref="#veneto">Veneto</placeName> e <placeName ref="#friuli">Friuli</placeName> e allora <persName ref="#buzzati">questo signore</persName> la storia la sente più degli altri<pause/>
+                        E scrive sul suo giornale ispirato<pause/>
+                        <cit ref="buzzati_articolo"><emph>Un sasso</emph> è caduto in un bicchiere<pause/>
+                        <emph>L'acqua</emph> è uscita sulla tovaglia tutto qua<pause/>
+                        Solo che il <emph>sasso</emph> era <emph>grande</emph> come una montagna<pause/>
+                        Il bicchiere <emph>alto</emph> centinaia di metri<pause/>
+                        E <emph>giù</emph> sulla tovaglia stavano <emph>migliaia</emph> di <emph>creature</emph> umane <shift feature="tempo" new="acc"/>che non potevano difendersi<pause/>
+                        <shift feature="tempo" new="rall"/><emph>E non è</emph> che si sia <emph>rotto</emph> il <distinct type="regionalism" space="veneto">bicchier</distinct><pause/>
+                        Non si può dar della <emph>bestia</emph> a chi l'ha costruito<pause/>
+                        Perché quel <emph>bicchiere</emph> era fatto <distinct type="regionalism" space="veneto">ben</distinct><pause/>
+                        <shift feature="tempo" new="acc"/>A regola d'arte<pause/>
+                        <shift feature="tempo" new="rall"/>Testimonianza della <emph>tenacia</emph> del <emph>coraggio</emph> umani<pause/>
+                        La <placeName ref="#vajont_diga"><emph>diga</emph> del Vajont</placeName> era ed è un <emph>capolavoro</emph><pause/>
+                        <emph>Anche</emph> <shift feature="tempo" new="acc"/>dal punto di vista estetico<pause/></cit>
+                        <shift feature="tempo" new="rall"/><persName ref="#buzzati">Dino Buzzati</persName><pause/>
+                        <shift feature="tempo" new="acc"/><bibl ref="#corriere">Corriere della Sera</bibl> <date when="1963_10_11">venerdì undici ottobre del Sessantatré</date><pause/>
+                        <shift feature="tempo" new="rall"/><cit ref="buzzati_articolo">La diga del Vajont<pause/>
+                        Era ed è un capola-</cit><pause/>
+                        <shift feature="tempo" new="normal"/>Era ed è?<pause/>
+                        <shift feature="tempo" new="acc"/><vocal type="semi-lexical"><desc>Eh</desc></vocal> beh ma sì!<pause/>
+                        <shift feature="tempo" new="rall"/>La diga non era mica <emph>crollata</emph> come sembrava il primo momento <shift feature="tempo" new="acc"/>eccola là!<pause/>
+                        Era rimasta in piedi<pause/>
+                        <shift feature="tempo" new="rall"/>Con <emph>tutto</emph> quel che è successo<pause/> 
+                        <shift feature="tempo" new="acc"/>E così dall'anno dopo<pause/>
+                        <shift feature="tempo" new="rall"/>Da quando hanno ricostruito la ferrovia e noi<pause/> 
+                        <shift feature="tempo" new="acc"/>Abbiamo ricominciato a andare in vacanza <shift feature="tempo" new="rall"/><emph>sempre</emph> <shift feature="tempo" new="acc"/>nello stesso posto perché io finché ho avuto diciotto anni sono andato in vacanza <shift feature="tempo" new="rall"/><emph>sempre</emph> <shift feature="tempo" new="normal"/>nello stesso posto e dopo<pause/>
+                        <kinesic><desc>gesto del'ombrello</desc></kinesic>
+                        Basta<pause/>
+                        <shift feature="tempo" new="rall"/>E allora là<pause/>
+                        Sul treno<pause/>
+                        Col naso incollato al <distinct type="regionalism" space="veneto">finestrin</distinct><pause/>                        
+                        <shift feature="tempo" new="acc"/><shift feature="rhythm" new="arrh"/><vocal type="semi-lexical" iterated="true"><desc>Tu-tum</desc></vocal> 
+                        <shift feature="rhythm" new="normal"/>è questa la valle?<pause/>
+                        <shift feature="tempo" new="rall"/><emph>No</emph> aspetta<pause/>
+                        <shift feature="tempo" new="acc"/><shift feature="rhythm" new="arrh"/><vocal type="semi-lexical" iterated="true"><desc>Tu-tum</desc></vocal> 
+                        <shift feature="rhythm" new="normal"/>è questa la valle?<pause/>
+                        <shift feature="tempo" new="rall"/><emph>No</emph> aspetta<pause/>
+                        <shift feature="tempo" new="acc"/><shift feature="rhythm" new="arrh"/><vocal type="semi-lexical" iterated="true"><desc>Tu-tum</desc></vocal> 
+                        <shift feature="rhythm" new="normal"/>è <emph>questa</emph> la valle? 
+                        <shift feature="tempo" new="rall"/><emph>No</emph> aspetta ma <emph>quando</emph> arriva? <placeName ref="#longarone">Longaronē</placeName><pause/>
+                        Adesso<pause/>
+                        Quando il treno entrava in <distinct type="regionalism" space="veneto">stazion</distinct><pause/>
+                        Tu per un minuto la vedevi la diga <emph>bianca</emph><pause/>
+                        In mezzo alle montagne <emph>nere</emph><pause/>
+                        E ti venivan dentro qua <emph>due</emph> sentimenti<pause/>
+                        <shift feature="tempo" new="acc"/>Quello delle mamme<pause/>
+                        E quello dei papà<pause/>
+                        Il sentimento delle mamme<pause/> 
+                        <shift feature="tempo" new="normal"/>Si chiamava <shift feature="rhythm" new="arrh"/><distinct type="regionalism" space="veneto">povera Longaron povera Longaron</distinct> <shift feature="tempo" new="rall"/>povera <placeName ref="#longarone">Longarone</placeName><pause/>
+                        <shift feature="rhythm" new="normal"/>Ed era un sentimento per <emph>fondamenta</emph><pause/>
+                        <shift feature="tension" new="st"/>Fondamenta <emph>senza muri</emph> <shift feature="tension" new="normal"/>che venivano <emph>su</emph> in mezzo alla <emph>ghiaia</emph> del <geoName ref="#piave"><emph>Piave</emph></geoName><pause/>
+                        Che <distinct type="regionalism" space="veneto">avea</distinct> riempito <emph>tutta</emph> la valle e a <emph>noi</emph><pause/>
+                        Bambini <distinct type="regionalism" space="veneto">aveano</distinct> <emph>spiegato</emph><pause/> 
+                        <shift feature="tempo" new="acc"/>che sotto a quei sassi c'erano ancora i morti<pause/>
+                        <shift feature="tempo" new="rall"/>Non li avevano trovati tutti<pause/> 
+                        <shift feature="rhythm" new="normal"/>E allora io avevo questo sentimento disciplinato a nome <shift feature="rhythm" new="arrh"/>povera Longaron povera Longaron povera <placeName ref="#longarone">Longarone</placeName><pause/> 
+                        <shift feature="rhythm" new="normal"/><shift feature="tempo" new="rall"/>Però<pause/>  
+                        <vocal type="semi-lexical"><desc>Eh!</desc></vocal><pause/>
+                        Non potevo fare a meno di averne un altro<pause/>
+                        Sentimento <emph>qua</emph><pause/>
+                        Quello dei papà<pause/>
+                        Per la diga<pause/>
+                        <shift feature="tempo" new="normal"/>Perché era rimasta su<pause/>
+                        <shift feature="tempo" new="rall"/>E io bambino pensavo <said>ma insomma la montagna è cascata ma la diga ha tenuto <shift feature="tempo" new="acc"/>il suo dovere l'ha fatto<pause/>
+                        <shift feature="tempo" new="rall"/>Se fosse <distinct type="regionalism" space="veneto">casca'</distinct> la diga sarebbe andata peggio no?</said>
+                    </u>
+                </div2>
+                <gap reason="sampling"/>
+                <div2 type="chapter" n="3">
+                    <u who="#paolini">
+                        <shift feature="tempo" new="normal"/>Così un anno<pause/>
+                        Alla stazione di <placeName ref="#calalzo">Calalzo</placeName> per il viaggio di ritorno mi trovo <emph>senza</emph> libro<pause/>
+                        <shift feature="tempo" new="rall"/>Che li ho letti tutti<pause/>
+                        E mi preoccupo<pause/>
+                        <shift feature="tempo" new="acc"/>E poi ne prendo uno all'edicola della stazione<pause/> 
+                        <shift feature="tempo" new="rall"/>Questo<pause/>
+                        <kinesic><desc>mostra il libro</desc></kinesic><pause/>
+                        <bibl ref="#merlin_sullapelleviva">Sulla pelle viva<pause/>
+                        Come si costruisce una catastrofe il caso Vajont</bibl> <vocal type="semi-lexical"><desc>Ah!</desc></vocal> Vajont<pause/>
+                        <shift feature="tempo" new="acc"/>Mi interessava dai<pause/>
+                        Compra il libro<pause/>
+                        Parte il treno<pause/>
+                        Leggi il libro<pause/>
+                        <shift feature="rhythm" new="arrh"/><vocal type="semi-lexical" iterated="true"><desc>Tu-tum</desc></vocal><pause/> 
+                        <shift feature="rhythm" new="normal"/><shift feature="tempo" new="rall"/>Come si costruisce una catastrofe<pause/>
+                        <shift feature="tempo" new="normal"/>Ma la diga non era costruita bene?<pause/>
+                        <shift feature="tempo" new="rall"/>A regola d'arte<pause/>
+                        Come si costruisce a regola d'arte ma che<pause/>
+                        Una diga?<pause/>
+                        <shift feature="tempo" new="normal"/>O una catastrofe?<pause/>
+                        Ma chi è questa?<pause/>
+                        <persName ref="#merlin">Tina Merlin</persName>!<pause/>
+                        E chi è <persName ref="#merlin">Tina Merlin</persName>?<pause/>
+                        <vocal type="semi-lexical"><desc>Eh?</desc></vocal>
+                        <shift feature="tempo" new="rall"/>È <persName ref="#bocca">Giorgio Bocca</persName>?<pause/> 
+                        <shift feature="tempo" new="rall"/>È <persName ref="#buzzati">Dino Buzzati</persName>?<pause/>
+                        <shift feature="tempo" new="normal"/>Chi è <persName ref="#merlin">Tina Merlīn</persName>?<pause/>
+                        Leggi il risvolto di copertina che te lo dice<pause/>
+                        Giusto<pause/>
+                        <shift feature="tempo" new="acc"/><cit ref="#merlin_sullapelleviva"><persName ref="#merlin">Tina Merlin</persName> <shift feature="tempo" new="normal"/>è nata a <shift feature="tension" new="st"/><placeName ref="#trichiana">Trichiana</placeName> <placeName ref="#belluno">Belluno</placeName> nel <date when="1926">1926</date> <shift feature="tempo" new="acc"/><shift feature="tension" new="normal"/>ha svolto attività giornalistica dal <shift feature="tension" new="st"/><date when="1951">Cinquantuno</date> <shift feature="tension" new="normal"/>lavorando per <shift feature="tension" new="st"/>trent'anni <shift feature="tension" new="normal"/><shift feature="tempo" new="rall"/>all'<bibl ref="#unità">Unità</bibl></cit><pause/>
+                        <vocal type="semi-lexical"><desc>Ahā!</desc></vocal> 
+                        <shift feature="tempo" new="acc"/><shift feature="voice" new="laugh"/><vocal type="semi-lexical" iterated="true"><desc>Eh-eh</desc></vocal> 
+                        <shift feature="tempo" new="normal"/><shift feature="voice" new="normal"/><distinct type="regionalism" space="veneto">Capio</distinct> tutto<pause/>
+                        <distinct type="colloquialism">E dai per piacere</distinct><pause/>
+                        Che <bibl ref="#unità">l'Unità</bibl> negli anni Sessanta <emph>non era</emph> un quotidiano<pause/>
+                        Era <shift feature="tension" new="st"/>un bollettino di partito<pause/> 
+                        E in <geoName ref="#piave_valle">valle del Piave</geoName> <shift feature="tempo" new="rall"/>vendeva <emph>sette</emph> copie<pause/> 
+                        <emph>Sei</emph> per gli iscritti al <orgName ref="#pc">PC</orgName><pause/>
+                        E una per l'osteria di <persName>Piero Corona</persName> <shift feature="tempo" new="acc"/>che aveva fatto la <event ref="#resistenza">Resistenza</event> quindi lo comprava<pause/> 
+                        <emph>Dopo</emph> lo nascondeva sotto al <bibl ref="#gazzettino">Gazzettino</bibl> <shift feature="tempo" new="rall"/>ma il suo dovere lo faceva sempre<pause/> 
+                        <cit ref="merlin_sullapelleviva">Corrispondente locale</cit><pause/> 
+                        <shift feature="tempo" new="acc"/>Non è finita<pause/>
+                        <shift feature="tempo" new="normal"/><shift feature="tension" new="st"/><cit ref="merlin_sullapelleviva">Ha partecipato alla <event ref="#resistenza">Resistenza</event> come <emph>staffetta</emph> partigiana nel <placeName ref="#belluno_provincia">bellunese</placeName></cit><pause/>
+                        Ma allora ho capito tutto sul serio<pause/>
+                        <shift feature="tempo" new="acc"/>Che io sapevo tutto dei partigiani fin da piccolo <distinct type="colloquialism">che m'han tirato su bene a me sa</distinct><pause/>
+                        <shift feature="tempo" new="normal"/>Sapevo che i partigiani durante la guerra stavano in <emph>montagna</emph><pause/>
+                        Sulle <emph>malghe</emph><pause/>
+                        In <emph>gruppo</emph><pause/>
+                        <distinct type="colloquialism"><vocal type="semi-lexical"><desc>Eh</desc></vocal> già per forza!</distinct><pause/>
+                        Perché in montagna<pause/>
+                        Da soli<pause/>
+                        Di notte<pause/>
+                        <kinesic><desc>gesto con la mano dx che simula ironicamente un sentimento di paura</desc></kinesic><pause/>
+                        Però<pause/> 
+                        <shift feature="tempo" new="acc"/>Ci vuole qualcuno che faccia il <shift feature="tempo" new="rall"/><emph>collegamento</emph> <shift feature="tempo" new="normal"/>tra una malga<pause/>
+                        E l'altra<pause/>
+                        Tra un gruppo<pause/>
+                        E l'altro<pause/>
+                        E chi è che mandi<pause/>
+                        Una donna?<pause/>
+                        <shift feature="tempo" new="rall"/><vocal type="semi-lexical"><desc>Eh</desc></vocal> mi par giusto<pause/>
+                        Così <emph>oltre</emph> che dai tedeschi<pause/>
+                        Deve aver paura <shift feature="tempo" new="acc"/>di tutti quelli che trova per strada<pause/>
+                        Perché dopotutto è pur sempre una <shift feature="tempo" new="rall"/><emph>donna</emph> anche se nascosta sotto documenti messi da tutte le parti<pause/> 
+                        <shift feature="tempo" new="rall"/>E cosa fa <distinct type="colloquialism">'sta</distinct> disgraziata? <emph>Pedala!</emph><pause/>
+                        <shift feature="tempo" new="acc"/>Alè via con la bicicletta e <shift feature="tempo" new="rall"/>la paura che ti ferma qualcuno per farti <emph>comunque</emph> del male <shift feature="tempo" new="acc"/>dove finisce la strada <emph>su</emph><pause/>
+                        A piedi<pause/>
+                        In mezzo agli alberi del bosco<pause/>
+                        <shift feature="tempo" new="rall"/>Una <emph>bersagliera</emph> <shift feature="tempo" new="acc"/>ecco che cos'è<pause/> 
+                        <shift feature="tempo" new="rall"/>Una staffetta partigiana<pause/> 
+                        <shift feature="tempo" new="normal"/><vocal type="semi-lexical"><desc>Oh</desc></vocal> ma uno che fa quella vita a vent'anni<pause/>
+                        Vuoi che <emph>in cambio</emph> non le sia mai capitata un'occasione di quelle che<pause/>
+                        <distinct type="colloquialism">Bè chi va in montagna mi capisce al volo senti</distinct><pause/>
+                        <shift feature="tempo" new="acc"/>Una di quelle volte che ti sei alzato <shift feature="tempo" new="normal"/>la mattina <shift feature="tempo" new="rall"/><emph>presto</emph> stai sudando ormai da ore <distinct type="regionalism" space="veneto">come un <emph>becco</emph></distinct> <shift feature="tempo" new="acc"/>sotto lo zaino<pause/>
+                        verso il rifugio <shift feature="tempo" new="rall"/>che è là<pause/>
+                        Son tre ore che è là<pause/>
+                        Perché li spostano<pause/>
+                        <distinct type="colloquialism">C'ho messo anni a capirlo</distinct> <vocal type="semi-lexical"><desc>eh</desc></vocal><pause/>
+                        <shift feature="tempo" new="normal"/>Lo fanno per il tuo bene<pause/>
+                        Ma <shift feature="tempo" new="rall"/>li spostano chiaro<pause/>
+                        Tu sei là che ti domandi chi è che te l'ha fatta far questa fatica<pause/>
+                        <shift feature="tempo" new="normal"/>Ti casca l'occhio indietro un attimo<pause/>
+                        E capisci da solo<pause/>
+                        <shift feature="tempo" new="acc"/>Che valeva la pena di far <shift feature="tempo" new="rall"/>tutta la fatica del mondo per arrivare <emph>là</emph> in quel momento <emph>lì</emph><pause/>
+                        Perché giù<pause/>
+                        Il fondovalle <shift feature="tempo" new="acc"/>da dove sei partito è già <shift feature="tempo" new="rall"/>coperto di nuvole ma tu ormai sei sopra<pause/>
+                        È <emph>limpido</emph> sopra<pause/>
+                        A trecento e sessanta gradi hai le montagne <shift feature="tempo" new="acc"/>le crode lì intorno a una a una che ti puot-<pause/> 
+                        <shift feature="tempo" new="rall"/>Ti <emph>par</emph><pause/> 
+                        Di poterci volar <emph>sopra</emph> come un <emph>rapace</emph><pause/> 
+                        <shift feature="tempo" new="acc"/>Ed eccolo là il <bibl ref="merlin_sullapelleviva">libro della <persName ref="#merlin">Merlin</persName></bibl><pause/>
+                        <shift feature="tempo" new="rall"/><shift feature="tension" new="st"/>Ecco che cos'è<pause/>
+                        <shift feature="tempo" new="normal"/>Non è un'altra storia<pause/>
+                        <shift feature="tempo" new="acc"/>È la stessa storia ma è <shift feature="tempo" new="rall"/>un altro punto di vista<pause/>
+                        <shift feature="tempo" new="normal"/>Non il<pause/>
+                        Punto di vista delle formiche di quelli che <distinct type="regionalism" space="veneto">arriva</distinct> <emph>dopo</emph> la tragedia<pause/> inviati spaventati <shift feature="tempo" new="acc"/>no no no<pause/>
+                        È il punto di vista del falco<pause/>
+                        Di chi le cose le ha viste <emph>da prima</emph><pause/>
+                        <shift feature="tempo" new="rall"/><emph>Dall'alto</emph><pause/>
+                        <emph>Da sopra</emph><pause/> 
+                        E infatti<pause/> 
+                        <shift feature="tempo" new="normal"/><persName ref="#merlin">Tina</persName> non racconta <shift feature="tempo" new="rall"/>la storia della<pause/> 
+                        <shift feature="rhythm" new="arrh"/>Povera <placeName ref="#longarone">Longarone</placeName> povera Longarone <shift feature="rhythm" new="normal"/>che è stata <emph>rasa al suolo</emph> <shift feature="tempo" new="acc"/>cancellata<pause/> 
+                        <shift feature="tempo" new="normal"/>E giustamente diventata il <emph>protagonista</emph> di questa storia<pause/> 
+                        No!<pause/>
+                        Lei sceglie di raccontar la storia dei <emph>comprimari</emph><pause/>
+                        Altri due paesi che non son stati distrutti <shift feature="tempo" new="rall"/>soltanto lesionati <shift feature="tempo" new="acc"/>quindi ce li siam dimenticati<pause/>
+                        <shift feature="tempo" new="normal"/>Anche perché non si vedono<pause/> 
+                        <vocal type="semi-lexical"><desc>Eh</desc></vocal> no<pause/>
+                        Perché stavano <emph>sopra</emph> la diga<pause/>
+                        Dalla <geoName ref="#valle_vajont">parte <emph>friulana</emph> del Vajont</geoName><pause/>
+                        <shift feature="tempo" new="rall"/>Sulla <emph>sponda</emph> del lago paesi lesionati<pause/>
+                        <shift feature="tempo" new="acc"/>Che poi avevano un nome così brutto<pause/>
+                        <shift feature="tempo" new="normal"/>Che non si poteva certo mettere sui libri di scuola<pause/>
+                        <shift feature="tempo" new="rall"/>Due paesi che non si può nominare in pubblico<pause/>
+                        Senza commettere turpiloquio<pause/>
+                        <placeName ref="#erto">Erto</placeName><pause/>
+                        E <placeName ref="#casso">Casso</placeName><pause/>
+                        <shift feature="tempo" new="normal"/>A scelta nell'ordine<pause/>
+                        A <placeName ref="#erto">Erto</placeName> e <placeName ref="#casso"><emph>Casso</emph></placeName> <date from="1956" to="1963">dal Cinquantasei al Sessantatré</date> s'è combattuta guerra<pause/>
+                        <shift feature="tempo" new="rall"/>Da una parte i due paesi dall'altra la società che costruiva la diga<pause/>                        
+                    </u>
+                </div2>
+            </div1>
+            <div1 type="act" n="2">
+                <div2 type="chapter" n="...">
+                </div2>
+            </div1>
+        </body>
+        <back>
+            <writing type="credits">
+            </writing>
+        </back>
+    </text>
+
+    <standOff type="subjects">        
+        <listPerson>
+            <person xml:id="bocca" sameAs="https://isni.org/isni/0000000109381856">
+                <persName>Giorgio Bocca</persName>
+                    <birth when="1920_08_28">28 agosto 1920<placeName xml:id="cuneo" sameAs="http://www.geonames.org/3177700/cuneo.html">Cuneo</placeName></birth>
+                    <death when="2011_12_25">25 dicembre 2011<placeName xml:id="milano" sameAs="http://www.geonames.org/3173435/milan.html">Milano</placeName></death>  
+            </person>  
+            <person xml:id="buzzati" sameAs="https://isni.org/isni/0000000121251018">
+                <persName>Dino Buzzati</persName>
+                    <birth when="1906_10_16">16 ottobre 1906<placeName ref="#belluno">Belluno</placeName></birth>
+                    <death when="1972_01_28">28 gennaio 1972<placeName ref="#milano">Milano</placeName></death>  
+            </person>  
+            <person xml:id="merlin" sameAs="https://isni.org/isni/0000000030125841">
+                <persName>Tina Merlin</persName>
+                    <birth when="1926_08_19">19 agosto 1926<placeName xml:id="trichiana" sameAs="http://www.geonames.org/6538289/trichiana.html"></placeName>Trichiana</birth>  
+            </person>            
+        </listPerson> 
+        <listOrg>
+            <org xml:id="pc" sameAs="https://isni.org/isni/0000000121927719">
+                <orgName>Partito Comunista</orgName>                     
+            </org>                       
+        </listOrg>        
+        <listPlace>
+        <label>Italia</label>
+            <place xml:id="italia" sameAs="http://www.geonames.org/3175395/italian-republic.html">
+                <placeName>Italia</placeName>                            
+            </place>
+        <label>Veneto</label>
+            <place xml:id="veneto" sameAs="http://www.geonames.org/3164604/veneto.html">
+                <placeName>Veneto</placeName>                            
+            </place>
+        <label>Provincia di Belluno</label>
+            <place xml:id="belluno_provincia" sameAs="http://www.geonames.org/3182209/provincia-di-belluno.html">
+                <placeName>Provincia di Belluno</placeName>                            
+            </place>
+            <place xml:id="belluno" sameAs="http://www.geonames.org/3182210/belluno.html">
+                <placeName>Belluno</placeName>
+                    <location>
+                        <geo>46.14262 - 12.2156</geo>
+                    </location>
+            </place>
+            <place xml:id="longarone" sameAs="http://www.geonames.org/3174598/longarone.html">
+                <placeName>Longarone</placeName>
+                    <location>
+                        <geo>46.26579 - 12.29992</geo>
+                    </location>
+            </place>
+            <place xml:id="pirago" sameAs="http://www.geonames.org/3219689/pirago.html">
+                <placeName>Pirago</placeName>
+                    <location>
+                        <geo>46.26 - 12.29417</geo>
+                    </location>
+            </place>
+            <place xml:id="rivalta" sameAs="http://www.geonames.org/8950264/rivalta.html">
+                <placeName>Rivalta</placeName>
+                    <location>
+                        <geo>45.65714 - 10.89336</geo>
+                    </location>
+            </place>
+            <place xml:id="codissago" sameAs="http://www.geonames.org/3219692/codissago.html">
+                <placeName>Codissago</placeName>
+                    <location>
+                        <geo>46.27596 - 12.31087</geo>
+                    </location>
+            </place>
+            <place xml:id="faè" sameAs="http://www.geonames.org/3177306/fae.html">
+                <placeName>Faè</placeName>
+                    <location>
+                        <geo>46.24647 - 12.29834</geo>
+                    </location>
+            </place>
+            <place xml:id="faè" sameAs="http://www.geonames.org/3181248/calalzo-di-cadore.html">
+                <placeName>Calalzo di Cadore</placeName>
+                    <location>
+                        <geo>46.44643 - 12.38176</geo>
+                    </location>
+            </place>
+            <place xml:id="sottocastello" sameAs="https://it.wikipedia.org/wiki/Sottocastello">
+                <placeName>Sottocastello</placeName>
+                    <location>
+                        <geo>46.423611 - 12.377778</geo>
+                    </location>
+            </place>
+            <place xml:id="perarolo" sameAs="http://www.geonames.org/3171227/perarolo-di-cadore.html">
+                <placeName>Perarolo di Cadore</placeName>
+                    <location>
+                        <geo>46.39383 - 12.35636</geo>
+                    </location>
+            </place>
+            <place xml:id="ospitale" sameAs="http://www.geonames.org/3171824/ospitale-di-cadore.html">
+                <placeName>Ospitale di Cadore</placeName>
+                    <location>
+                        <geo>46.32808 - 12.32263</geo>
+                    </location>
+            </place>
+            <place xml:id="castellavazzo" sameAs="http://www.geonames.org/3179579/castello-lavazzo.html">
+                <placeName>Castello Lavazzo</placeName>
+                    <location>
+                        <geo>46.2848 - 12.30606</geo>
+                    </location>
+            </place>
+            <place xml:id="trichiana" sameAs="http://www.geonames.org/3219557/trichiana.html">
+                <placeName>Trichiana</placeName>
+                    <location>
+                        <geo>46.0813 - 12.14091</geo>
+                    </location>
+            </place>
+            <place xml:id="monte_toc" sameAs="http://www.geonames.org/3219655/monte-toc.html">
+                <geoName>Monte Toc</geoName>
+                    <location>
+                        <geo>46.24083 - 12.3375</geo>
+                    </location>
+            </place>
+            <place xml:id="vajont_valle" sameAs="https://it.wikipedia.org/wiki/Valle_del_Vajont">
+                <geoName>Valle del Vajont</geoName>                            
+            </place>
+            <place xml:id="piave_valle" sameAs="https://it.wikipedia.org/wiki/Valle_del_Piave">
+                <geoName>Valle del Piave</geoName>                            
+            </place>
+            <place xml:id="piave" sameAs="http://www.geonames.org/3170911/fiume-piave.html">
+                <geoName>Piave</geoName>                            
+            </place>                    
+        <label>Friuli-Venezia-Giulia</label>
+            <place xml:id="friuli" sameAs="http://www.geonames.org/3176525/friuli-venezia-giulia.html">
+                <placeName>Friuli-Venezia-Giulia</placeName>                            
+            </place>
+        <label>Provincia di Pordenone</label>
+            <place xml:id="pordenone_provincia" sameAs="http://www.geonames.org/3170146/pordenone.html">
+                <placeName>Provincia di Pordenone</placeName>                            
+            </place>
+                <place xml:id="erto" sameAs="http://www.geonames.org/3177351/erto.html">
+                    <placeName>Erto</placeName>
+                        <location>
+                            <geo>46.2764 - 12.37149</geo>
+                        </location>
+                </place>
+                <place xml:id="casso" sameAs="http://www.geonames.org/3219691/casso.html">
+                    <placeName>Casso</placeName>
+                        <location>
+                            <geo>46.27197 - 12.33184</geo>
+                        </location>
+                </place>
+                <place xml:id="vajont_diga" sameAs="http://www.geonames.org/7283964/vajont-dam.html">
+                    <geoName>Diga del Vajont</geoName> 
+                        <location>
+                            <geo>46.26724 - 12.3292</geo>
+                        </location>                           
+                </place>
+        </listPlace>
+        <listEvent>
+            <event xml:id="resistenza" sameAs="https://id.loc.gov/authorities/names/n84732424.html">
+                <eventName>Resistenza italiana</eventName>
+            </event>
+            <event xml:id="vajont_disastro" sameAs="https://it.wikipedia.org/wiki/Disastro_del_Vajont">
+                <eventName>Disastro del Vajont</eventName>
+            </event>
+        </listEvent>
+        <listBibl>
+        <label>Il Giorno</label>
+            <bibl xml:id="il_giorno" sameAs="https://acnpsearch.unibo.it/journal/66044">Il Giorno</bibl>
+            <bibl xml:id="bocca_articolo" sameAs=""><author ref="#bocca">Giorgio Bocca</author> <title type="short">Ecco la valle della sciagura</title> <publisher ref="#il_giorno">Il Giorno</publisher> <date when="1963_10_11">11 ottobre 1963</date></bibl>
+        <label>Corriere della Sera</label>
+            <bibl xml:id="corriere" sameAs="https://acnpsearch.unibo.it/journal/64918">Corriere della Sera</bibl>
+            <bibl xml:id="buzzati_articolo" sameAs=""><author ref="#buzzati">Dino Buzzati</author> <title type="short">Stavolta per il giornalista che commenta non c'è compito da risolvere</title> <publisher ref="#corriere">Corriere della Sera</publisher> <date when="1963_10_11">11 ottobre 1963</date></bibl>
+        <label>L'Unità</label>
+            <bibl xml:id="unità" sameAs="https://acnpsearch.unibo.it/journal/29177">L'Unità</bibl>
+        <label>Il Gazzettino</label>
+            <bibl xml:id="gazzettino" sameAs="https://acnpsearch.unibo.it/journal/50158">Il Gazzettino</bibl>
+        <label>Tina Merlin, Sulla Pelle Viva</label>
+            <bibl xml:id="merlin_sullapelleviva" sameAs=""><author ref="#merlin">Tina Merlin</author> Sulla Pelle Viva</bibl>
+        </listBibl>    
+    </standOff>
+</TEI>
