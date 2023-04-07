@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="it">
+        <fileDesc>
+            <titleStmt xml:lang="it">
+                <title>Attestato di Benemerenza n. 1188</title>
+                <funder ref="#ministero_dif">Ministero della Difesa</funder>
+                <author ref="#andreotti">Giulio Andreotti</author>  
+                <respStmt>
+                    <resp>Codifica TEI</resp>                    
+                        <persName xml:id="becchi_s">Sara Becchi</persName>                           
+                </respStmt>               
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="unibo" sameAs="https://isni.org/isni/0000000121912795">Università di Bologna</publisher>
+                <availability>Testo liberamente consultabile</availability>
+                <licence target="https://creativecommons.org/licenses/by/3.0/">Licenza: Creative Commons Attribution 3.0</licence>
+            </publicationStmt>
+            <editionStmt>
+                <edition>Testo ricopiato dal documento originale e marcato interamente in TEI</edition>
+                <date>2023</date>
+            </editionStmt>
+            <sourceDesc>
+                <msDesc>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc material="paper">
+                                <support>Carta</support>
+                                    <extent>Formato A3</extent>                                    
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>
+                                    <p>Testo giustificato e centrato con intestazione e firma in calce</p>
+                                </layout>                                
+                            </layoutDesc>
+                            <typeDesc>
+                                <typeNote xml:id="tp1" script="typewritten">Carattere maiuscolo, sim. Lapidario Romano, con grazie</typeNote>
+                                <typeNote xml:id="tp2" script="typewritten">Carattere corsivo, sim. Italic Hand Calligraphy</typeNote>
+                                <typeNote xml:id="tp3" script="typewritten">Carattere corsivo, sim. French Script</typeNote>
+                            </typeDesc>                            
+                            <handDesc hands="2">
+                                <handNote xml:id="hn1" scribe="unknown" script="handwritten">Soggetto sconosciuto compila con inchiostro nero e grafia corsiva il numero dell'attestato e il nome del destinatario</handNote>
+                                <handNote xml:id="hn2" scribeRef="#andreotti" script="handwritten">Firma del Ministro della Difesa Giulio Andreotti</handNote>
+                            </handDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>                
+            </sourceDesc>
+        </fileDesc> 
+
+        <encodingDesc>
+            <projectDesc>
+                <p>Trascrizione e marcatura in linguaggio XML/TEI del documento <title>Attestato di Benemerenza N. 1188</title> rilasciato ai soccorritori delle vittime del <event ref="vajont_disastro">disastro del Vajont</event> dal <orgName ref="#ministero_dif">Ministero della Difesa</orgName> e sottoscritto dal <persName><roleName ref="#ministro_dif">Ministro della Difesa</roleName> <roleName ref="#on">On.</roleName> Giulio Andreotti</persName>.</p>
+            </projectDesc> 
+            <editorialDecl>
+                <interpretation>
+                    <p>La marcatura del testo rispecchia le sue caratteristiche tipografiche: si distingue la scrittura a mano dalla scrittura dattilografica e si segnala quando il testo va a capo.</p>
+                    <p>Vengono inoltre marcati date, nomi di luogo e persona.</p>
+                </interpretation>
+            </editorialDecl>                                   
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+            <textDesc>
+                <channel mode="w"/>
+                <domain type="certificate"/>
+                <factuality type="fact"/>
+                <interaction type="none"/>
+                <preparedness type="formulaic"/>
+                <purpose type="recognition" degree="high"/>               
+            </textDesc>
+            <textClass>
+                <classCode scheme="AAT" resp="#becchi_s"/>
+                <list>                             
+                    <item idno="300423504" ref="http://vocab.getty.edu/page/aat/300423504" xml:id="commemorative_certificate">Certificato commemorativo</item>
+                    <item idno="300214143" ref="http://vocab.getty.edu/page/aat/300214143" xml:id="commemoration">Commemorazione</item>                                      
+                </list>                              
+            </textClass>                         
+            <particDesc>
+                <listPerson type="signer">
+                    <person ref="#andreotti">
+                        <persName>Giulio Andreotti</persName>
+                            <birth when="1956_03_05">05 marzo 1956<placeName ref="#belluno">Belluno</placeName></birth>  
+                   </person>                            
+                </listPerson>  
+                <listPerson type="consignee">
+                    <person xml:id="becchi_l"> 
+                        <persName>Luciano Becchi</persName>                       
+                    </person>                            
+                </listPerson>                                                   
+            </particDesc>                  
+        </profileDesc>    
+    </teiHeader>
+    <text>
+        <body>
+
+            <opener>
+                <typeNote ref="#tp2">N.</typeNote> <handNote ref="#hn1">1188</handNote> <graphic><desc>Logo del Ministero della Difesa</desc></graphic>
+                <typeNote ref="#tp1"><orgName ref="#ministero_dif">MINISTERO DELLA DIFESA</orgName></typeNote><lb/>
+                <typeNote ref="#tp2">Attestato di Benemerenza<lb/>
+                Concesso a</typeNote><handNote ref="#hn1">l <persName ref="#becchi_l"><roleName ref="#caporal_magg">Cap.Magg.</roleName> Becchi Luciano</persName></handNote><lb/>
+            </opener>
+        
+            <p>
+                <typeNote ref="#tp1">QUANDO UNA IMMANE SCIAGURA SI ERA ABBAT-<lb/>
+                TUTA SULLE POPOLAZIONI DEL <placeName ref="#cadore">CADORE</placeName> I MILITARI<lb/>
+                ACCORSERO A PORTARE L'AIUTO CHE ESSI SOLI<lb/>
+                - IN QUELLE CIRCOSTANZE - POTEVANO DARE.</typeNote><lb/>
+            </p>
+
+            <p>
+                <typeNote ref="#tp1">PRODIGANDOSI IN COMUNIONE DI DOLORE OLTRE I<lb/>
+                LIMITI DEL DOVERE, RINTRACCIARONO E COMPOSERO<lb/>
+                I MORTI, RIAPRIRONO LE STRADE, GETTARONO I<lb/>
+                PONTI, DONARONO AI SUPERSTITI IL CONFORTO DI<lb/>
+                UNA ASSISTENZA FRATERNA, FIORITA D'AMORE.</typeNote><lb/>
+            </p>
+
+            <p>
+                <typeNote ref="#tp1">MENTRE I MORTI RAGGIUNGEVANO LA PACE, COLORO<lb/>
+                CHE ERANO RIMASTI RITROVAVANO LA SPERANZA,<lb/>
+                PERCHÈ SENTIVANO CHE - ATTRAVERSO I SUOI<lb/>
+                FIGLI ALLE ARMI - TUTTO IL POPOLO ITALIANO<lb/>
+                ERA PRESENTE CON LA DECISA VOLONTÀ DI<lb/>
+                AIUTARLI A RIPRENDERE IL CAMMINO.</typeNote><lb/>
+            </p>
+        
+            <closer>
+                <signed>
+                    <byline>
+                        <docAuthor>
+                            <persName ref="#andreotti"><typeNote ref="#tp3"><roleName ref="#ministro_dif">Il Ministro</roleName></typeNote> <handNote ref="#hn2"><supplied reason="illegible" resp="#becchi_s">Andreotti</supplied></handNote></persName><lb/>
+                        </docAuthor>
+                    </byline>
+                    <dateline>
+                        <typeNote ref="#tp2"><placeName>Zona del Vajont</placeName>, <date when="1963_10">ottobre 1963</date></typeNote><lb/>
+                    </dateline>
+                </signed>
+            </closer>
+
+        </body>
+    </text>
+
+    <standOff type="subjects">       
+        <listPerson>
+            <person xml:id="becchi_l" sameAs="">
+                <persName>Luciano Becchi</persName>
+                <roleName xml:id="caporal_magg" sameAs="https://it.wikipedia.org/wiki/Caporal_maggiore">Caporal Maggiore</roleName>
+                <birth when=""><placeName xml:id="" sameAs=""></placeName></birth>
+                <death when=""><placeName xml:id="" sameAs=""></placeName></death>  
+            </person>  
+            <person xml:id="andreotti" sameAs="https://isni.org/isni/0000000080784060">
+                <persName>Giulio Andreotti</persName>
+                <roleName xml:id="ministro_dif" sameAs="https://en.wikipedia.org/wiki/Minister_of_Defence_(Italy)">Ministro della Difesa</roleName>
+                <roleName xml:id="on" sameAs="https://en.wikipedia.org/wiki/The_Honourable">Onorevole</roleName>
+                <birth when="1919_01_14">14 gennaio 1919<placeName xml:id="roma" sameAs="http://www.geonames.org/3169070/rome.html">Roma</placeName></birth>
+                <death when="2013_05_06">6 maggio 2013<placeName ref="#roma">Roma</placeName></death>
+            </person>             
+        </listPerson> 
+        <listOrg>
+            <org xml:id="ministero_dif" sameAs="https://isni.org/isni/000000041760920X">
+                <orgName>Ministero della Difesa</orgName>                     
+            </org>                       
+        </listOrg>            
+        <listPlace>
+        <label>Italia</label>
+            <place xml:id="italia" sameAs="http://www.geonames.org/3175395/italian-republic.html">
+                <placeName>Italia</placeName>                            
+            </place>
+        <label>Veneto</label>
+            <place xml:id="veneto" sameAs="http://www.geonames.org/3164604/veneto.html">
+                <placeName>Veneto</placeName>                            
+            </place>
+        <label>Provincia di Belluno</label>
+            <place xml:id="belluno_provincia" sameAs="http://www.geonames.org/3182209/provincia-di-belluno.html">
+                <placeName>Provincia di Belluno</placeName>                            
+            </place>
+            <place xml:id="cadore" sameAs="http://www.geonames.org/3218910/cadore.html">
+                <placeName>Cadore</placeName>                    
+            </place>            
+        </listPlace>    
+        <listEvent>            
+            <event xml:id="vajont_disastro" sameAs="https://it.wikipedia.org/wiki/Disastro_del_Vajont">
+                <eventName>Disastro del Vajont</eventName>
+            </event>
+        </listEvent>         
+    </standOff>
+</TEI>
